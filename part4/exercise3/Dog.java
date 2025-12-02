@@ -1,4 +1,4 @@
-package part3.exercise2;
+package part4.exercise3;
 
 public class Dog {
     
