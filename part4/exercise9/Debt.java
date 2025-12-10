@@ -4,7 +4,7 @@ public class Debt {
     private double balance;
     private double interestRate;
 
-    public Debt(double intialBalance ,double intialInterestRate){
+    public Debt(double initialBalance ,double initialInterestRate){
         this.balance = initialBalance;
         this.interestRate = initialInterestRate;
     }
