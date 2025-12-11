@@ -3,10 +3,10 @@ import java.util.ArrayList;
 
 
 public class Items {
-    private ArrayList<Item> items;
+    private ArrayList<Items> Items;
 
     public Items(){
-        this.items = new ArrayList<>();
+        this.Items = new ArrayList<>();
     }
    
         

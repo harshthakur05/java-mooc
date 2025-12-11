@@ -5,15 +5,15 @@ import java.util.ArrayList;
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        Items items = new Items();
+        ArrayList<String> items = new ArrayList<>();
         
         while(true){
             System.out.println("Name");
             String name = sc.nextLine();
-            if (name==""){
+            if (name.equals("")){
                 break;
             }
-            items.add(new items(name));
+            items.add(name);
 
         }
     }
