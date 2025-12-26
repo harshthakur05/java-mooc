@@ -1,4 +1,4 @@
-package part5.excercise1;
+package part5.exercise1;
 
 public class Timer {
     private ClockHand hundredth;
